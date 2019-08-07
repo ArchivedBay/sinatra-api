@@ -1,0 +1,15 @@
+# Vim / Machine specific
+.DS_STORE
+*.swp
+*~
+
+# temp/log files
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# environment
+vendor/
+.bundle
+.env
